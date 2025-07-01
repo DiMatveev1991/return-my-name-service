@@ -1,39 +1,10 @@
-# Игнорировать системные файлы
-**/.DS_Store
-**/.vs
-**/.vscode
-**/.idea
-
-# Игнорировать файлы Git
+**/.dockerignore
+**/.env
 **/.git
 **/.gitignore
-**/.gitmodules
-
-# Игнорировать файлы окружения
-**/.env
-**/.env.local
-**/.env.*.local
-
-# Игнорировать бинарные файлы и выходные директории сборки
+**/.vs
+**/.vscode
 **/bin
 **/obj
-**/node_modules
-**/dist
-**/out
-**/build
-
-# Игнорировать файлы логов и кэша
-**/*.log
-**/.npm
-**/.yarn
-**/.pnp
-
-# Игнорировать специфичные для проекта файлы
+**/Dockerfile
 **/docker-compose.yml
-**/Dockerfile*
-**/.dockerignore
-**/README.md
-**/LICENSE
-
-# Игнорировать пользовательские настройки
-**/launchSettings.json
